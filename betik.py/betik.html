@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Geri Dön Fonksiyonu</title>
+</head>
+<body>
+    <script>
+        let toplam = 0;
+
+        function geriDon(n) {
+            if (n <= 0) {
+                return;
+            }
+            console.log(n);
+            toplam += n;
+            geriDon(n - 1);
+        }
+
+        let sayi = 100;
+        geriDon(sayi);
+        console.log("Toplam:", toplam);
+    </script>
+</body>
+</html>
+</body>
+</html>
