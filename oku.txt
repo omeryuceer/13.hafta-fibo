@@ -1,0 +1,1 @@
+ 13.hafta bir sayıya kadar olan tüm pozitif sayıların toplamını bulan ve bu süreci geri sayarak yapan bir örnektir.
